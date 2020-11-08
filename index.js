@@ -7,9 +7,9 @@ module.exports = extractDomContent
 /**
  * Takes in a DOM element and returns all of its text content.
  *
- * @param {Element} originalNode - DOM element to get the content from
- * @param {Object} [options] - An object of options to apply additionals filters and/or change the return type
- * @param {boolean} [options.returnAsArray=false] - Whether the content should be returned as a linebreak-separated string or an array of strings
+ * @param {Element} originalNode - DOM element to get the content from.
+ * @param {Object} [options={}] - An object of options to apply additionals filters and/or change the return type.
+ * @param {boolean} [options.returnAsArray=false] - Whether the content should be returned as a linebreak-separated string or an array of strings.
  * @param {boolean} [options.removeDuplicates=false] - Whether duplicate strings should be removed or kept.
  * @return {String|Array}
  */

@@ -14,14 +14,14 @@ npm install extract-dom-content
 
 <a name="extractDomContent"></a>
 
-## extractDomContent(originalNode, [options]) ⇒ <code>String</code> \| <code>Array</code>
+### extractDomContent(originalNode, [options]) ⇒ <code>String</code> \| <code>Array</code>
 Takes in a DOM element and returns all of its text content.
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
-| originalNode | <code>Element</code> |  | DOM element to get the content from |
-| [options] | <code>Object</code> |  | An object of options to apply additionals filters and/or change the return type |
-| [options.returnAsArray] | <code>boolean</code> | <code>false</code> | Whether the content should be returned as a linebreak-separated string or an array of strings |
+| originalNode | <code>Element</code> |  | DOM element to get the content from. |
+| [options] | <code>Object</code> | <code>{}</code> | An object of options to apply additionals filters and/or change the return type. |
+| [options.returnAsArray] | <code>boolean</code> | <code>false</code> | Whether the content should be returned as a linebreak-separated string or an array of strings. |
 | [options.removeDuplicates] | <code>boolean</code> | <code>false</code> | Whether duplicate strings should be removed or kept. |
 
 ## Contributing
