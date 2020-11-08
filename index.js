@@ -65,7 +65,7 @@ function extractDomContent(originalNode, options = {}) {
     mainNode.innerHTML = mainNode.innerHTML.replace(/<h([1-6])(.+?)<\/h\1>/g, '\n<h$1$2</h1>\n');
 
     // Home stretch...
-    const rawContent = (mainNode.innerText || '')
+    const rawContent = (mainNode.innerText || mainNode.textContent || '')
         .replace(/(\s{2,})([A-Z0-9])/g, '$1\n$2') // split blocks that seem to contain multiple sentences or standalone blocks
         .replace(/\s{3,}/g, '\n') // break everything into single line blocks
         .replace(/\n.{1,3}\n/g, '\n') // remove tiny words or tokens that are on their own
