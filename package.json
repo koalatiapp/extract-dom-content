@@ -1,0 +1,25 @@
+{
+  "name": "extract-dom-content",
+  "version": "1.0.0",
+  "description": "Get all of a DOM element's cleaned and standardized text content.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koalatiapp/extract-dom-content.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koalatiapp/extract-dom-content/issues"
+  },
+  "homepage": "https://github.com/koalatiapp/extract-dom-content#readme",
+  "keywords": [
+    "text",
+    "dom",
+    "extract",
+    "content",
+    "readability",
+    "document"
+  ],
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
