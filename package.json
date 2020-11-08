@@ -1,6 +1,6 @@
 {
   "name": "extract-dom-content",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get all of a DOM element's cleaned and standardized text content.",
   "repository": {
     "type": "git",
