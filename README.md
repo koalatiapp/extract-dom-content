@@ -1,5 +1,7 @@
 # extract-dom-content
 
+[![NPM version of extract-dom-content](https://img.shields.io/npm/v/extract-dom-content)](https://www.npmjs.com/package/extract-dom-content)
+
 Provide a DOM element and get all of its cleaned and standardized text content in an array or string.
 
 This library was originally developed with webpage spellchecking in mind, but can be used for any purpose you might have for it.
