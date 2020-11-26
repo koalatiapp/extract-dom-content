@@ -26,6 +26,15 @@ Takes in a DOM element and returns all of its text content.
 | [options.returnAsArray] | <code>boolean</code> | <code>false</code> | Whether the content should be returned as a linebreak-separated string or an array of strings. |
 | [options.removeDuplicates] | <code>boolean</code> | <code>false</code> | Whether duplicate strings should be removed or kept. |
 
+
+## Browser & Virtual DOM support
+
+This package supports nodes from:
+- regular browser DOMs (tested in Google Chrome) ✅
+- [jsdom](https://github.com/jsdom/jsdom) ✅
+
+If you have tried the package with a different virtual DOM package/library, please let us know how it went so we can add the information on this page.
+
 ## Contributing
 
 If you would like to add features, fix bugs or optimize this package, feel free to fork this repository and submit a pull request.
